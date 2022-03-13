@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#nav_menu').slicknav({
+                label: '',
+                prependTo: "#mobile_menu"
+            });
+        });
+    </script>
+    <title> Form - Boba Bear</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body id="request">
+    <header>
+        <h1><a class="logo" href="home.html">Boba Bear</a></h1>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a class="order" href="home.html" title="Home">Home</a></li>
+                <li><a class="order" href="products.html" title="Menu">Menu</a></li>
+                <li><a class="order" href="about.html" title="About">About</a></li>
+                <li><a class="order" href="catering.html" title="Catering">Catering</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="catering">
+        <h1>GET A QUOTE FOR YOUR EVENT NOW</h1>
+        <p>For request of 20 cups or more, please fill out the form below <br> If you need catering in 7 days or less, please contact us at <a class="link" href="tel:360-328-1217" title="Telephone Number">(360)-328-1217</a></p>
+        <p id="catfo">Catering Form</p>
+
+        <form id="form" action="https://ctec.clark.edu/CTEC122/scripts/form_echo.php" method="post">
+
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" title="Enter your First Name" size="40" maxlength="35" autofocus required><br>
+
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" title="Enter your Last Name" size="40" maxlength="35" required><br>
+
+            <label for="date">Event Date:</label><br>
+            <input type="date" id="date" title="Choose your Date Event" required><br>
+
+            <label for="eventcity">Event City:</label><br>
+            <select name="eventcity" id="eventcity" title="Select one of the options">
+                <option value="Sample">Select a city</option>
+                <option value="Vancouver">Vancouver, WA</option>
+                <option value="Portland">Portland, OR</option>
+                <option value="Beaverton">Beaverton, OR</option>
+                <option value="Gresham">Gresham, OR</option>
+                <option value="Hillsboro">Hillsboro, OR</option>
+            </select><br>
+
+            <p class="drinks">Types of Drinks:</p>
+            <input type="checkbox" name="fruittea" id="fruittea" value="fruittea" title="Select all that apply">
+            <label class="name" for="fruittea">Fruit Tea</label><br>
+            <input type="checkbox" name="milktea" id="milktea" value="milktea" title="Select all that apply">
+            <label class="name" for="milktea">Milk Tea</label><br>
+
+            <label for="numberofdrinks">Number of Drinks:</label>
+            <input type="number" id="numberofdrinks" placeholder="At least 20 cups or more" title="Enter number of drinks" min="20" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" title="Enter your Email" required><br>
+
+            <label for="telphone">Phone Number:</label><br>
+            <input type="tel" name="telphone" id="telphone" placeholder="999-999-9999" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Must be 999-999-9999 format"><br>
+
+            <label for="notes">Notes:</label><br>
+            <textarea name="notes" id="notes" title="Enter your Notes" placeholder="If you have any notes for us, please enter them here." cols="30" rows="10"></textarea><br>
+
+            <div id="bu">
+                <input type="submit" id="submit" value="Request a Quote">
+                <input type="reset" id="reset" value="Reset">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <nav id="footer_list">
+            <ul>
+                <li><a class="order" href="home.html" title="Home">Home</a></li>
+                <li><a class="order" href="products.html" title="Menu">Menu</a></li>
+                <li><a class="order" href="about.html" title="About">About</a></li>
+                <li><a class="order" href="catering.html" title="Catering">Catering</a></li>
+            </ul>
+        </nav>
+        <p>Copyright &copy; 2021 Boba Bear</p>
+        <p class="center" id="attribute">The banner image on this website is from Vecteezy. Click <a class="link" href="https://www.vecteezy.com/free-vector/boba-tea" title="attribution">here</a> for attribution text </p>
+    </footer>
+</body>
+
+</html>

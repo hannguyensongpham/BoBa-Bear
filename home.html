@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#nav_menu').slicknav({
+                label: '',
+                prependTo: "#mobile_menu"
+            });
+        });
+    </script>
+    <title>Home - Boba Bear</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body id="page">
+    <header>
+        <h1><a class="logo" href="home.html">Boba Bear</a></h1>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a class="order" href="home.html" title="Home">Home</a></li>
+                <li><a class="order" href="products.html" title="Menu">Menu</a></li>
+                <li><a class="order" href="about.html" title="About">About</a></li>
+                <li><a class="order" href="catering.html" title="Catering">Catering</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner-area">
+        <img src="images/main.jpg" alt="boba">
+    </div>
+
+    <main>
+        <section class="content">
+            <p>Boba Bear is a small family-owned bubble tea shop located in Vancouver, WA. At Boba Bear, we believe in serving quality tea/bubble tea that creates warm and friendly atmosphere to recall all those good memories with family and friends.
+            </p>
+            <p class="center">Life is good. Let's enjoy your BoBa with us!</p>
+            <figure id="cat">
+                <img src="images/funcat.jpg" alt="It's Tea Time" width="445" height="314">
+                <figcaption class="center">Our Boba Moment</figcaption>
+            </figure>
+        </section>
+
+        <section class="content">
+            <h3>What customers love about us:</h3>
+            <div class="rv">
+                <ul id="review">
+                    <li><q>Authentic and Fresh</q></li>
+                    <li><q>Friendly and Warm</q></li>
+                    <li><q>Comfortable and Enjoy</q></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <aside class="home">
+        <p><strong>Our location</strong>:</p>
+        <ul id="contact">
+            <li>Located in Salmon Creek, Vancouver, WA</li>
+            <li>Address: 7777 SE Lucky St, Vancouver, WA 98685</li>
+            <li>Mon-Thurs: 10AM – 9PM <br>Fri-Sun: 11AM-9:30PM<br></li>
+            <li><a class="link" href="tel:360-328-1217" title="Telephone Number">Telephone: +1 (360)-328-1217</a></li>
+        </ul>
+        <figure id="work">
+            <figcaption>A cup of milk tea is good for a workday</figcaption>
+            <img src="images/work.jpg" alt="Enjoy Boba with Work" width="250" height="375">
+        </figure>
+    </aside>
+    <footer>
+        <nav id="footer_list">
+            <ul>
+                <li><a class="order" href="home.html" title="Home">Home</a></li>
+                <li><a class="order" href="products.html" title="Menu">Menu</a></li>
+                <li><a class="order" href="about.html" title="About">About</a></li>
+                <li><a class="order" href="catering.html" title="Catering">Catering</a></li>
+            </ul>
+        </nav>
+        <p>Copyright &copy; 2021 Boba Bear</p>
+        <p class="center" id="attribute">The banner image on this website is from Vecteezy. Click <a class="link" href="https://www.vecteezy.com/free-vector/boba-tea" title="attribution">here</a> for attribution text </p>
+    </footer>
+</body>
+
+</html>

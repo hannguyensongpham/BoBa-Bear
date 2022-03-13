@@ -1,0 +1,1023 @@
+*{
+    box-sizing: border-box;
+}
+
+body#page {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(245, 244, 239);
+    width: 100vw;
+}
+
+body#abt {
+    background-color: #e8e8ea;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+body#request {
+    background-color: #e8e8ea;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    padding: .5em;
+    background: #67c834;
+}
+header h1 {
+    color: #AD252B;
+    font-size: 2.1875em;
+    font-weight: 600;
+    line-height: 5px;
+    padding-top: 0;
+    margin: 0.5em 1.5em;
+    float: left;
+}
+
+header #nav_menu ul{
+    list-style-type: none;
+    text-align: center;  
+}
+
+header #nav_menu ul li {
+    display: inline;
+    padding: 0 3em;
+}
+
+header #nav_menu ul li a{
+    text-transform: uppercase;
+    font-weight: 800; 
+}
+
+#mobile_menu {
+	display: none;
+}
+
+.banner-area {
+    width: 100vw;
+}
+
+.banner-area img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+/* Main Styling */
+main{
+    width: 620px;
+    margin-top: 16px;
+    padding-left: 6em;
+    float: left;
+}
+
+.content > p {
+    line-height: 30px;
+}
+
+.content h3{
+    font-weight: 800;
+    font-size: 1em;
+    text-align: center;
+}
+
+#review {
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+.rv {
+    margin: auto;
+    align-content: center;
+}
+
+#review li {
+    list-style-type: none;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+/* Aside Styling */
+aside {
+    width: 368px;
+    margin-top: 35px;
+    padding-right: 96px;
+    float: right;
+    /* text-align: center; */
+    position: relative;
+}
+
+.home > p {
+   padding: 0;
+   text-align: center;
+   margin-block-start: 0;
+}
+
+#contact {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact li {
+    margin-bottom: 1em;
+}
+
+/* Products.html Styling */
+.content h2 {
+    /* text-align: center; */
+    color: rgb(103, 200, 52);
+    font-weight: 800;
+}
+
+.products h2 {
+    color: rgb(103, 200, 52);
+    font-weight: 800;
+}
+
+ul.tea {
+    /* text-align: center; */
+    padding: 0;
+}
+
+.tea li, .topping li, .quality li {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+ul .tea {
+    margin: 0;
+}
+
+.fruitmilk {
+    margin: 0;
+    padding: 0;
+}
+
+img.fruitmilk{
+    margin-bottom: 1em;
+    width: 350px;
+    height: 217px;
+    /* width: 100%; */
+}
+
+aside.products {
+    width: 368px;
+    margin-top: 16px;
+    padding-right: 96px;
+    float: right;
+    /* text-align: center; */
+    position: relative;
+}
+
+#tigerboba {
+    margin: 0;
+    padding: 0;
+}
+
+#tigerboba figcaption {
+    /* text-align: center; */
+    margin: auto 3em 10px;
+    width: 80%;
+}
+
+#boba {
+    color: #AD252B;
+    font-weight: 600;
+}
+
+.level li {
+    list-style-type: none;
+    display: inline;
+}
+
+ul.level {
+    text-align: center;
+    padding: 0;
+}
+
+#option {
+    margin: 1em 0 auto;
+    border: 2px double #000000;
+    box-shadow: 3px 3px 4px 3px green;
+    width: 380px;
+}
+
+#option > p {
+    text-align: center;
+}
+
+.verticalline {
+    color: #AD252B;
+    margin: 0 2px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: rgb(245, 244, 239);
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3em auto;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: black;
+}
+
+/* About.html Styling */
+#heading h1 {
+    text-align: center;
+    color: #3a1603;
+}
+
+ul.quality {
+    padding: 0;
+    text-align: center;
+}
+
+aside.about {
+    width: 368px;
+    margin-top: 16px;
+    padding-right: 96px;
+    float: right;
+    /* text-align: center; */
+    position: relative;
+}
+
+.about h2{
+    color: #AD252B;
+    text-align: center;
+}
+
+.about p {
+    line-height: 30px;
+}
+
+#highlight {
+    font-weight: 800;
+    font-style: italic;
+}
+
+.pic {
+    display: block;
+    margin: auto;
+}
+
+#bear {
+    margin: 0;
+    padding: 0;
+}
+
+#bear img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#bear figcaption {
+    text-align: center;
+    margin: auto auto 10px;
+}
+
+span#jsDate {
+    text-align: center;
+}
+
+/* Catering.html Styling */
+textarea {
+    height: 5em;
+    width: 25em;
+}
+
+main.catering {
+    width: 100%;
+}
+
+main.catering h1{
+    text-align: center;
+}
+
+.catering > p{
+    text-align: center;
+}
+
+#form {
+    margin: 20px auto;
+    width: 60%;
+    border: 2px solid #AD252B;
+    padding: 1.2em 3em;
+    border-radius: 25px;   
+}
+
+p#catfo {
+    font-size: 2em;
+}
+
+label, .drinks{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+}
+
+input, select {
+    width: 25em;
+    height: 3em;
+}
+
+input#fruittea, input#milktea {
+    font-size: 50%;
+    display: inline;
+    width: 5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#eventcity, #firstname, #lastname, #date, #numberofdrinks, #email, #telphone, #note {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 25em;
+    height: 10em;
+    margin: 1em auto;
+}
+
+#bu {
+    margin: auto auto 1em;
+}
+
+#submit, #reset {
+    width: 10em;
+    color: #ffffff;
+    background-color: crimson;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    display: inline-block;
+}
+
+#submit:hover, #reset:hover {
+    background-color: #e8e8ea;
+    border: 2px solid crimson;
+    color: #000000;
+}
+
+#submit {
+    margin-left: 0;
+}
+
+#reset {
+    margin-right: 0;
+}
+
+label.choose {
+    margin: 0;
+}
+
+/* Footer Styling */
+footer {
+    clear: both;
+    padding: 0.5em;
+    background: rgb(103, 200, 52);
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+footer #footer_list ul{
+    list-style-type: none;
+    text-align: center; 
+}
+
+#footer_list ul li {
+    display: inline;
+    margin-right: 15px;
+    padding: 10px 0 25px;
+}
+
+footer > p{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+#attribute {
+    font-size: 0.8125em;
+    margin: 10px 10px 10px 5px;
+}
+
+/* Home.html Figure */
+#work {
+    margin: 0;
+    padding: 0;
+}
+#work img {
+    /* margin: 0; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#work figcaption {
+    text-align: center;
+    margin: auto auto 10px;
+}
+
+#cat {
+    margin: 0;
+    padding: 0;   
+}
+
+#cat img { 
+    /* width: 100%;
+    height: auto; */
+    width: 445px;
+    height: 314px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#cat figcaption {
+    margin-top: 10px;
+}
+
+a.logo {
+    text-decoration: none;
+    color: #AD252B;
+}
+
+a.logo:visited {
+    color: #AD252B;
+}
+
+a.logo:active{
+    color: #AD252B;
+}
+
+a.order {
+    text-decoration: none;
+    color: #3a1603;
+}
+
+a.order:hover, a.order:focus {
+    text-decoration: underline;
+}
+
+a.order:visited {
+    color: #3a1603;
+}
+
+a.order:active{
+    color: #3a1603;
+}
+
+a.link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a.link:hover, a.link:focus {
+    text-decoration: underline;
+}
+
+a.link:visited {
+    color: #000000;
+}
+a.link:active{
+    color: #000000;
+}
+
+/* Feel free to modify the breakpoints provided or add your own additional ones */
+
+ @media screen and (min-width:1001px){
+    main {
+         width: 50%;
+    }
+
+    aside.home {
+         width: 30%;
+         margin-left: 1em;
+    }
+
+    #cat img {
+        width: 480px;
+        height: 339px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    aside.products{
+        width: 40%;
+    }
+
+    aside.about {
+        width: 45%;
+    }
+
+    #bear img {
+	margin-left: auto;
+        margin-right: auto;
+        display: block
+    }
+
+    header #nav_menu ul li {
+         padding: 0 2em;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .rv {
+        margin: auto;
+        width: 60%;
+    }
+ }
+
+@media screen and (min-width:800px) and (max-width: 1000px) {
+    #page {
+        margin: 0;
+        padding: 0;
+    }
+
+    header, footer {
+        width: 100vw;
+    }
+
+    header #nav_menu ul li {
+        padding: 0 1.5em;
+    }
+
+    main {
+        float: left;
+        width: fit-content;
+        padding: 0 3em;
+    }
+
+    main.products{
+        float: left;
+        width: 100%;
+        padding: 0 3em;
+    }
+
+    main.about {
+        float: left;
+        width: 100%;
+        padding: 0 3em;
+    }
+    
+    #form {
+        margin: 20px auto;
+        width: 60%;
+        border: 2px solid #AD252B;
+        border-radius: 25px;
+        padding: 20px 30px;   
+    }
+
+    input, select {
+        width: 85%;
+        height: 3em;
+        margin: 1em 0; 
+    }
+
+    textarea {
+        height: 9em;
+        width: 85%;
+        margin-right: 25px;
+    }
+
+    #submit, #reset {
+        width: 40%;
+        margin-left: auto;
+        font-size: 98%;
+    }
+
+    aside {
+        padding-right: 0;
+        margin-top: 30px;
+        width: fit-content;
+        margin: 1em auto;
+        float: none;
+        /* text-align: center; */
+    }
+
+    aside.products {
+        padding-right: 0;
+        margin-top: 30px;
+        /* width: fit-content; */
+	width: 45%;
+        margin: 1em auto;
+        float: none;
+        /* text-align: center; */
+    }
+
+    aside.about {
+        padding-right: 0;
+        margin-top: 30px;
+        width: 90%;
+        margin: 1em auto;
+        float: none;
+       /* text-align: center; */
+    }
+
+    footer {
+        clear: both;
+    }
+
+    .nav_menu li {
+        display: block;
+        float: left;
+        width: 25%;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    #cat img {
+        /* width: 50%;
+        height: auto; */
+        width: 350px;
+        height: 247px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #work img {
+        /* width: 60%; */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    img.fruitmilk {
+        /* width: 70%; */
+        width: 330px;
+        height: 204px;
+        /* margin-left: auto;
+        margin-right: auto;
+        display: block; */
+    }
+
+    #review {
+        text-align: center;
+    }
+
+    .rv {
+        margin: auto;
+        width: 50%;
+    }
+
+    #bear img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:799px){
+    #nav_menu {
+        display: none;
+    }
+
+    #mobile_menu {
+        display: block;
+    }
+
+    .slicknav_menu {
+        background-color: #67c834 !important;
+    }
+
+    #page {
+        margin: 0;
+        padding: 0;
+    }
+
+    header, footer{
+        width: 100vw;
+    }
+
+    header h1 {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 0.7em 0.5em 0;
+    }
+
+    header #nav_menu ul li {
+        padding: 0;
+   }
+   
+    main {
+        float: left;
+        width: fit-content;
+        padding: 0 3em;
+    }
+    #cat img {
+        /* width: 50%;
+        height: auto; */
+        width: 330px;
+        height: 233px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    main.products {
+        float: left;
+        width: 100%;
+        padding: 0 3em;
+    }
+
+    img.fruitmilk {
+        width: 300px;
+        height: 186px;
+    }
+
+    #option {
+	width: 300px;
+    }
+
+    main.about{
+        float: left;
+        width: fit-content;
+        padding: 0 3em;
+    }
+
+    #form {
+        margin: 20px auto;
+        width: 75%;
+        border: 2px solid #AD252B;
+        border-radius: 25px;
+        padding: 20px 30px;   
+    }
+
+    input, select {
+        width: 85%;
+        height: 3em;
+        margin: 1em 0; 
+    }
+
+    textarea {
+        height: 9em;
+        width: 85%;
+        margin-right: 25px;
+    }
+
+    #submit, #reset {
+        width: 85%;
+        margin-left: auto;
+        font-size: 100%;
+    }
+
+    label, .drinks {
+        font-size: 1em;
+    }
+
+    aside {
+        padding-right: 0;
+        margin-top: 30px;
+        width: fit-content;
+        margin: 1em auto;
+        float: none;
+        /* text-align: center; */
+    }
+
+    .rv {
+        margin: auto;
+        width: 60%;
+    }
+
+    aside.products {
+        padding-right: 0;
+        margin-top: 30px;
+        /* width: fit-content; */
+	width: 53%;
+        margin: 1em auto;
+        float: none;
+        /* text-align: center; */
+    }
+
+    aside.about {
+        padding-right: 0;
+        margin-top: 30px;
+        width: 90%;
+        margin: 1em auto;
+        float: none;
+        /* text-align: center; */
+    }
+
+    #bear img {
+	margin-left: auto;
+        margin-right: auto;
+        display: block
+    }
+
+    footer {
+        clear: both;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    #attribute {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width:499px){
+    #nav_menu {
+        display: none;
+    }
+
+    #mobile_menu {
+        display: block;
+    }
+
+    .slicknav_menu {
+        background-color: #67c834 !important;
+    }
+
+    #page {
+        margin: 0;
+        padding: 0;
+    }
+
+    header, footer{
+        width: 100vw;
+    }
+
+    header h1 {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 0.7em 0.5em 0;
+    }
+
+    header #nav_menu ul li {
+        padding: 0;
+   }
+   
+    main {
+        float: left;
+        width: 100%;
+        padding: 0 1em;
+    }
+
+    #cat img {
+        /* width: 100%; */
+        width: 280px;
+        height: 197px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .rv {
+        margin: auto;
+    }
+
+    main.products {
+        float: left;
+        width: 100%;
+        padding: 0 3em;
+    }
+
+    img.fruitmilk {
+        width: 250px;
+        height: 155px;
+    }
+
+    #option {
+	width: 280px;
+    }
+
+    main.about {
+        float: left;
+        width: 100%;
+        padding: 0 3em;
+    }
+
+    #form {
+        margin: 20px auto;
+        width: 100%;
+        border: 2px solid #AD252B;
+        border-radius: 25px;
+        padding: 20px 10px;   
+    }
+
+    input, select {
+        width: 100%;
+        height: 3em;
+        margin: 1em 0; 
+    }
+
+    textarea {
+        height: 9em;
+        width: 100%;
+        margin-right: 25px;
+    }
+
+    #submit, #reset {
+        width: 100%;
+        margin-left: auto;
+        font-size: 105%;
+    }
+
+    label, .drinks {
+        font-size: 1em;
+    }
+
+    aside {
+        padding-right: 0;
+        margin-top: 30px;
+        width: fit-content;
+        margin: 1em auto;
+        float: none;
+        /* text-align: center; */
+    }
+
+    #contact {
+        margin: auto;
+        width: 90%;
+    }
+
+    #work figcaption {
+        width: 90%;
+    }
+
+    aside.products {
+        padding-right: 0;
+        margin-top: 30px;
+        width: 79%;
+        margin: 1em auto;
+        float: none;
+        /* text-align: center; */
+    }
+
+    aside.about {
+        padding-right: 0;
+        margin-top: 30px;
+        width: 80%;
+        margin: 1em auto;
+        float: none;
+        /* text-align: center; */
+    }
+
+    #bear img {
+	margin-left: auto;
+        margin-right: auto;
+        display: block
+    }
+
+    footer {
+        clear: both;
+    }
+
+    #footer_list ul {
+        padding-inline-start: 0;
+    }
+
+    #footer_list ul li {
+        display: inline;
+        margin-right: 5px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    #attribute {
+        margin-right: 30px;
+    }
+}
