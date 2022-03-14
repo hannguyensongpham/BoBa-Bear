@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -33,6 +33,7 @@ header {
     padding: .5em;
     background: #67c834;
 }
+
 header h1 {
     color: #AD252B;
     font-size: 2.1875em;
@@ -43,9 +44,9 @@ header h1 {
     float: left;
 }
 
-header #nav_menu ul{
+header #nav_menu ul {
     list-style-type: none;
-    text-align: center;  
+    text-align: center;
 }
 
 header #nav_menu ul li {
@@ -53,13 +54,13 @@ header #nav_menu ul li {
     padding: 0 3em;
 }
 
-header #nav_menu ul li a{
+header #nav_menu ul li a {
     text-transform: uppercase;
-    font-weight: 800; 
+    font-weight: 800;
 }
 
 #mobile_menu {
-	display: none;
+    display: none;
 }
 
 .banner-area {
@@ -74,18 +75,18 @@ header #nav_menu ul li a{
 }
 
 /* Main Styling */
-main{
+main {
     width: 620px;
     margin-top: 16px;
     padding-left: 6em;
     float: left;
 }
 
-.content > p {
+.content>p {
     line-height: 30px;
 }
 
-.content h3{
+.content h3 {
     font-weight: 800;
     font-size: 1em;
     text-align: center;
@@ -119,10 +120,10 @@ aside {
     position: relative;
 }
 
-.home > p {
-   padding: 0;
-   text-align: center;
-   margin-block-start: 0;
+.home>p {
+    padding: 0;
+    text-align: center;
+    margin-block-start: 0;
 }
 
 #contact {
@@ -165,7 +166,7 @@ ul .tea {
     padding: 0;
 }
 
-img.fruitmilk{
+img.fruitmilk {
     margin-bottom: 1em;
     width: 350px;
     height: 217px;
@@ -214,7 +215,7 @@ ul.level {
     width: 380px;
 }
 
-#option > p {
+#option>p {
     text-align: center;
 }
 
@@ -264,7 +265,7 @@ aside.about {
     position: relative;
 }
 
-.about h2{
+.about h2 {
     color: #AD252B;
     text-align: center;
 }
@@ -313,11 +314,11 @@ main.catering {
     width: 100%;
 }
 
-main.catering h1{
+main.catering h1 {
     text-align: center;
 }
 
-.catering > p{
+.catering>p {
     text-align: center;
 }
 
@@ -326,15 +327,15 @@ main.catering h1{
     width: 60%;
     border: 2px solid #AD252B;
     padding: 1.2em 3em;
-    border-radius: 25px;   
+    border-radius: 25px;
 }
 
 p#catfo {
     font-size: 2em;
 }
 
-label, .drinks{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+label, .drinks {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -411,9 +412,9 @@ footer {
 }
 
 
-footer #footer_list ul{
+footer #footer_list ul {
     list-style-type: none;
-    text-align: center; 
+    text-align: center;
 }
 
 #footer_list ul li {
@@ -422,7 +423,7 @@ footer #footer_list ul{
     padding: 10px 0 25px;
 }
 
-footer > p{
+footer>p {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 0;
@@ -439,6 +440,7 @@ footer > p{
     margin: 0;
     padding: 0;
 }
+
 #work img {
     /* margin: 0; */
     margin-left: auto;
@@ -453,10 +455,10 @@ footer > p{
 
 #cat {
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
 
-#cat img { 
+#cat img {
     /* width: 100%;
     height: auto; */
     width: 445px;
@@ -479,7 +481,7 @@ a.logo:visited {
     color: #AD252B;
 }
 
-a.logo:active{
+a.logo:active {
     color: #AD252B;
 }
 
@@ -496,7 +498,7 @@ a.order:visited {
     color: #3a1603;
 }
 
-a.order:active{
+a.order:active {
     color: #3a1603;
 }
 
@@ -512,20 +514,21 @@ a.link:hover, a.link:focus {
 a.link:visited {
     color: #000000;
 }
-a.link:active{
+
+a.link:active {
     color: #000000;
 }
 
 /* Feel free to modify the breakpoints provided or add your own additional ones */
 
- @media screen and (min-width:1001px){
+@media screen and (min-width:1001px) {
     main {
-         width: 50%;
+        width: 50%;
     }
 
     aside.home {
-         width: 30%;
-         margin-left: 1em;
+        width: 30%;
+        margin-left: 1em;
     }
 
     #cat img {
@@ -536,7 +539,7 @@ a.link:active{
         margin-right: auto;
     }
 
-    aside.products{
+    aside.products {
         width: 40%;
     }
 
@@ -545,13 +548,13 @@ a.link:active{
     }
 
     #bear img {
-	margin-left: auto;
+        margin-left: auto;
         margin-right: auto;
         display: block
     }
 
     header #nav_menu ul li {
-         padding: 0 2em;
+        padding: 0 2em;
     }
 
     .center {
@@ -562,7 +565,7 @@ a.link:active{
         margin: auto;
         width: 60%;
     }
- }
+}
 
 @media screen and (min-width:800px) and (max-width: 1000px) {
     #page {
@@ -584,7 +587,7 @@ a.link:active{
         padding: 0 3em;
     }
 
-    main.products{
+    main.products {
         float: left;
         width: 100%;
         padding: 0 3em;
@@ -595,19 +598,19 @@ a.link:active{
         width: 100%;
         padding: 0 3em;
     }
-    
+
     #form {
         margin: 20px auto;
         width: 60%;
         border: 2px solid #AD252B;
         border-radius: 25px;
-        padding: 20px 30px;   
+        padding: 20px 30px;
     }
 
     input, select {
         width: 85%;
         height: 3em;
-        margin: 1em 0; 
+        margin: 1em 0;
     }
 
     textarea {
@@ -635,7 +638,7 @@ a.link:active{
         padding-right: 0;
         margin-top: 30px;
         /* width: fit-content; */
-	width: 45%;
+        width: 45%;
         margin: 1em auto;
         float: none;
         /* text-align: center; */
@@ -647,7 +650,7 @@ a.link:active{
         width: 90%;
         margin: 1em auto;
         float: none;
-       /* text-align: center; */
+        /* text-align: center; */
     }
 
     footer {
@@ -699,14 +702,14 @@ a.link:active{
         width: 50%;
     }
 
-    #bear img{
+    #bear img {
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
 }
 
-@media screen and (min-width:500px) and (max-width:799px){
+@media screen and (min-width:500px) and (max-width:799px) {
     #nav_menu {
         display: none;
     }
@@ -724,7 +727,7 @@ a.link:active{
         padding: 0;
     }
 
-    header, footer{
+    header, footer {
         width: 100vw;
     }
 
@@ -736,13 +739,14 @@ a.link:active{
 
     header #nav_menu ul li {
         padding: 0;
-   }
-   
+    }
+
     main {
         float: left;
         width: fit-content;
         padding: 0 3em;
     }
+
     #cat img {
         /* width: 50%;
         height: auto; */
@@ -765,10 +769,10 @@ a.link:active{
     }
 
     #option {
-	width: 300px;
+        width: 300px;
     }
 
-    main.about{
+    main.about {
         float: left;
         width: fit-content;
         padding: 0 3em;
@@ -779,13 +783,13 @@ a.link:active{
         width: 75%;
         border: 2px solid #AD252B;
         border-radius: 25px;
-        padding: 20px 30px;   
+        padding: 20px 30px;
     }
 
     input, select {
         width: 85%;
         height: 3em;
-        margin: 1em 0; 
+        margin: 1em 0;
     }
 
     textarea {
@@ -822,7 +826,7 @@ a.link:active{
         padding-right: 0;
         margin-top: 30px;
         /* width: fit-content; */
-	width: 53%;
+        width: 53%;
         margin: 1em auto;
         float: none;
         /* text-align: center; */
@@ -838,7 +842,7 @@ a.link:active{
     }
 
     #bear img {
-	margin-left: auto;
+        margin-left: auto;
         margin-right: auto;
         display: block
     }
@@ -856,7 +860,7 @@ a.link:active{
     }
 }
 
-@media screen and (max-width:499px){
+@media screen and (max-width:499px) {
     #nav_menu {
         display: none;
     }
@@ -874,7 +878,7 @@ a.link:active{
         padding: 0;
     }
 
-    header, footer{
+    header, footer {
         width: 100vw;
     }
 
@@ -886,8 +890,8 @@ a.link:active{
 
     header #nav_menu ul li {
         padding: 0;
-   }
-   
+    }
+
     main {
         float: left;
         width: 100%;
@@ -919,7 +923,7 @@ a.link:active{
     }
 
     #option {
-	width: 280px;
+        width: 280px;
     }
 
     main.about {
@@ -933,13 +937,13 @@ a.link:active{
         width: 100%;
         border: 2px solid #AD252B;
         border-radius: 25px;
-        padding: 20px 10px;   
+        padding: 20px 10px;
     }
 
     input, select {
         width: 100%;
         height: 3em;
-        margin: 1em 0; 
+        margin: 1em 0;
     }
 
     textarea {
@@ -995,7 +999,7 @@ a.link:active{
     }
 
     #bear img {
-	margin-left: auto;
+        margin-left: auto;
         margin-right: auto;
         display: block
     }
